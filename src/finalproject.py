@@ -17,6 +17,7 @@ user.setheading(90)
 
 userspeed = 8
 
+
 def move_left():
     x = user.xcor()
     x -= userspeed
@@ -34,6 +35,14 @@ def move_right():
 turtle.listen()
 turtle.onkey(move_left, "Left")
 turtle.onkey(move_right, "Right")
+
+
+bomb = turtle.Turtle()
+bomb.shape("circle")
+bomb.color("black")
+bomb.speed(0)
+bomb.penup()
+bomb.setposition(0, 300)
 
 
 

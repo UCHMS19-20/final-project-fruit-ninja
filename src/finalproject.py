@@ -1,5 +1,7 @@
 import turtle
 
+
+
 window = turtle.Screen()
 window.title("FRUIT NINJA")
 window.bgcolor("brown")
@@ -36,7 +38,6 @@ turtle.listen()
 turtle.onkey(move_left, "Left")
 turtle.onkey(move_right, "Right")
 
-
 bomb = turtle.Turtle()
 bomb.shape("circle")
 bomb.color("black")
@@ -44,6 +45,13 @@ bomb.speed(0)
 bomb.penup()
 bomb.setposition(0, 300)
 
+while True:
+    y = bomb.ycor()
+    y -= 3
+    bomb.sety(y)
+    
+    if y < -300:
+        bomb.goto(0,300)
 
 
 window.mainloop()

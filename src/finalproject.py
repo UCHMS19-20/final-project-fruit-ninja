@@ -50,6 +50,18 @@ for _ in range(10):
     bomb.speed = random.randint(3,5)
     bombs.append(bomb)
 
+fruits = []
+
+for _ in range(20):
+    fruit = turtle.Turtle()
+    fruit.shape("circle")
+    fruit.color("orange")
+    fruit.speed(0)
+    fruit.penup()
+    fruit.setposition(0, 300)
+    fruit.speed = random.randint(2,4)
+    fruits.append(fruit)
+
 while True:
  
     window.update()

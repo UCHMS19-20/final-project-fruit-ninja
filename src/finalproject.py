@@ -5,14 +5,22 @@ import random
 window = turtle.Screen()
 window.title("FRUIT NINJA")
 window.bgcolor("brown")
+window.bgpic("/Users/kevincavicchia/Documents/final-project-fruit-ninja/src/backround.gif")
 window.setup(width=800, height=600)
 window.tracer(0)
 
 score = 0
 lives = 3
 
+window.register_shape("/Users/kevincavicchia/Documents/final-project-fruit-ninja/src/bomb.gif")
+window.register_shape("/Users/kevincavicchia/Documents/final-project-fruit-ninja/src/fruit.gif")
+window.register_shape("/Users/kevincavicchia/Documents/final-project-fruit-ninja/src/left_katana.gif")
+window.register_shape("/Users/kevincavicchia/Documents/final-project-fruit-ninja/src/right_katana.gif")
+
+
+
 user = turtle.Turtle()
-user.shape("circle")
+user.shape("/Users/kevincavicchia/Documents/final-project-fruit-ninja/src/left_katana.gif")
 user.color("grey")
 user.speed(0)
 user.penup()
@@ -23,6 +31,7 @@ userspeed = 15
 
 
 def move_left():
+    user.shape("/Users/kevincavicchia/Documents/final-project-fruit-ninja/src/left_katana.gif")
     x = user.xcor()
     x -= userspeed
     if x < -380:
@@ -30,6 +39,7 @@ def move_left():
     user.setx(x)
 
 def move_right():
+    user.shape("/Users/kevincavicchia/Documents/final-project-fruit-ninja/src/right_katana.gif")
     x = user.xcor()
     x += userspeed
     if x > 380:
@@ -44,7 +54,7 @@ bombs = []
 
 for _ in range(15):
     bomb = turtle.Turtle()
-    bomb.shape("circle")
+    bomb.shape("/Users/kevincavicchia/Documents/final-project-fruit-ninja/src/bomb.gif")
     bomb.color("black")
     bomb.speed(0)
     bomb.penup()
@@ -56,7 +66,7 @@ fruits = []
 
 for _ in range(20):
     fruit = turtle.Turtle()
-    fruit.shape("circle")
+    fruit.shape("/Users/kevincavicchia/Documents/final-project-fruit-ninja/src/fruit.gif")
     fruit.color("orange")
     fruit.speed(0)
     fruit.penup()
@@ -97,7 +107,7 @@ while lives > 0:
             y = random.randint(300,400)
             bomb.goto(x,y)
     
-        if bomb.distance(user) < 20:
+        if bomb.distance(user) < 40:
             x = random.randint(-380,380)
             y = random.randint(300,400)
             bomb.goto(x,y)
@@ -116,7 +126,7 @@ while lives > 0:
             y = random.randint(300,400)
             fruit.goto(x,y)
     
-        if fruit.distance(user) < 20:
+        if fruit.distance(user) < 40:
             x = random.randint(-380,380)
             y = random.randint(300,400)
             fruit.goto(x,y)

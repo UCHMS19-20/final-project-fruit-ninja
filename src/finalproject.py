@@ -74,7 +74,16 @@ scoreboard.setposition(0, 260)
 font = ("Arial", 25, "normal")
 scoreboard.write("Score: {}  Lives: {}".format(score,lives), align = "center", font = font)
 
-while True:
+lose = turtle.Turtle()
+lose.hideturtle()
+lose.shape("circle")
+lose.color("white")
+lose.speed(0)
+lose.penup()
+lose.setposition(0, 50)
+font = ("Arial", 30, "bold")
+
+while lives > 0:
  
     window.update()
 
@@ -114,5 +123,8 @@ while True:
             scoreboard.clear()
             score += 100
             scoreboard.write("Score: {}  Lives: {}".format(score,lives), align = "center", font = font)
+
+while lives == 0:
+    lose.write("GAME OVER. YOU BRING SHAME TO NINJAS.".format(score), align = "center", font = font)
 
 window.mainloop()

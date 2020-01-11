@@ -107,7 +107,7 @@ while lives > 0:
             y = random.randint(300,400)
             bomb.goto(x,y)
     
-        if bomb.distance(user) < 40:
+        if bomb.distance(user) < 35:
             x = random.randint(-380,380)
             y = random.randint(300,400)
             bomb.goto(x,y)
@@ -126,7 +126,7 @@ while lives > 0:
             y = random.randint(300,400)
             fruit.goto(x,y)
     
-        if fruit.distance(user) < 40:
+        if fruit.distance(user) < 35:
             x = random.randint(-380,380)
             y = random.randint(300,400)
             fruit.goto(x,y)

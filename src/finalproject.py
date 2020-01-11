@@ -8,6 +8,8 @@ window.bgcolor("brown")
 window.setup(width=800, height=600)
 window.tracer(0)
 
+score = 0
+lives = 3
 
 user = turtle.Turtle()
 user.shape("circle")
@@ -62,6 +64,16 @@ for _ in range(20):
     fruit.speed = random.randint(2,4)
     fruits.append(fruit)
 
+scoreboard = turtle.Turtle()
+scoreboard.hideturtle()
+scoreboard.shape("circle")
+scoreboard.color("white")
+scoreboard.speed(0)
+scoreboard.penup()
+scoreboard.setposition(0, 260)
+font = ("Arial", 25, "normal")
+scoreboard.write("Score: {}  Lives: {}".format(score,lives), align = "center", font = font)
+
 while True:
  
     window.update()
@@ -80,6 +92,10 @@ while True:
             x = random.randint(-380,380)
             y = random.randint(300,400)
             bomb.goto(x,y)
+            score -= 500
+            lives -= 1
+            scoreboard.clear()
+            scoreboard.write("Score: {}  Lives: {}".format(score,lives), align = "center", font = font)
     
     for fruit in fruits:
         y = fruit.ycor()
@@ -95,6 +111,8 @@ while True:
             x = random.randint(-380,380)
             y = random.randint(300,400)
             fruit.goto(x,y)
-
+            scoreboard.clear()
+            score += 100
+            scoreboard.write("Score: {}  Lives: {}".format(score,lives), align = "center", font = font)
 
 window.mainloop()

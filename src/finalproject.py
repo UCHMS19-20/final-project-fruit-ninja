@@ -1,5 +1,5 @@
 import turtle
-
+import random
 
 
 window = turtle.Screen()
@@ -17,7 +17,7 @@ user.penup()
 user.setposition(0, -250)
 user.setheading(90)
 
-userspeed = 8
+userspeed = 15
 
 
 def move_left():
@@ -51,7 +51,14 @@ while True:
     bomb.sety(y)
     
     if y < -300:
-        bomb.goto(0,300)
+        x = random.randint(-380,380)
+        y = random.randint(300,400)
+        bomb.goto(x,y)
+    
+    if bomb.distance(user) < 20:
+        x = random.randint(-380,380)
+        y = random.randint(300,400)
+        bomb.goto(x,y)
 
 
 window.mainloop()

@@ -40,13 +40,13 @@ turtle.onkey(move_right, "Right")
 
 bombs = []
 
-for _ in range(10):
+for _ in range(15):
     bomb = turtle.Turtle()
     bomb.shape("circle")
     bomb.color("black")
     bomb.speed(0)
     bomb.penup()
-    bomb.setposition(0, 300)
+    bomb.setposition(50, 300)
     bomb.speed = random.randint(3,5)
     bombs.append(bomb)
 
@@ -58,7 +58,7 @@ for _ in range(20):
     fruit.color("orange")
     fruit.speed(0)
     fruit.penup()
-    fruit.setposition(0, 300)
+    fruit.setposition(-50, 300)
     fruit.speed = random.randint(2,4)
     fruits.append(fruit)
 
@@ -80,6 +80,21 @@ while True:
             x = random.randint(-380,380)
             y = random.randint(300,400)
             bomb.goto(x,y)
+    
+    for fruit in fruits:
+        y = fruit.ycor()
+        y -= fruit.speed
+        fruit.sety(y)
+        
+        if y < -300:
+            x = random.randint(-380,380)
+            y = random.randint(300,400)
+            fruit.goto(x,y)
+    
+        if fruit.distance(user) < 20:
+            x = random.randint(-380,380)
+            y = random.randint(300,400)
+            fruit.goto(x,y)
 
 
 window.mainloop()

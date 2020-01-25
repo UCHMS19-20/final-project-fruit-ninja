@@ -4,45 +4,10 @@
 
 This game is a different version of the popular mobile phone game. The main idea is the same but instead of swiping, the user moves a sword at the bottom of the screen using the left and right arrow keys. There are two types of objects that fall at varying speeds from the top of the screen, strawberries and bombs, and user must try to cut the strawberries without cutting the bombs.
 
-## Criteria
+## Link to Sources
 
-Excellent work will include:
+## Link to Presentation
+   https://docs.google.com/presentation/d/1Kc__-12ScfsLMuYJgFUktcZz-hJKBZCYYXaqqL4zPfo/edit?usp=sharing
 
-* Clean, well-written, effective code
-* Version control in Git
-* Clear documentation of how te code works
-* A presentation of the game and of the process of creating it
-* Citations (MLA format) of the resources you used.
-
-## Expectations
-
-### General
-
-* This is intended as an individual project. You may help each other, but you are responsible for your own work.
-* I am willing to consider partnerships for larger and more complex projects
-* You may (and are encouraged to) use resources you find online, but may not outright copy someone else's work and must credit your sources
-* Your work should challenge you but be achievable
-* You are expected to understand how your own code works. If you are not able to explain any part of your own code, that will be cause for concern
-
-### Code
-
-* Your code should make effective use of classes and/or functions. We will review in class
-* Your code should be clear and well documented with comments and appropriate naming schemes
-* Your code should be managed through Git. I will be expecting to see commits reflecting your progress as you work on the project, and would prefer to see feature branches and a stable master branch.
-* Your code should be as reliable and as free of bugs as you can manage
-
-## Timeline
-
-Date  | Checkpoint
-------|---------------------------------------------
-12/16 | Project Proposals Due (all classes)
-12/20 | Git repository setup check
-1/7   | First code checkpoint
-1/13  | Second code checkpoint
-1/17  | Third code checkpoint
-1/23  | Exams Begin. All code and documentation due
-
-## Links
-
-* [Documentation](documentation.md)
-* [Resources](resources.md)
+## Link to Flowchart
+  https://www.draw.io/lightbox=1&edit=_blank&layers=1&nav=1&title=Fruit%20Ninja%20Flowchart#R7V3bkqM4Ev0ax%2B4%2BFAGI62NXVd9mtqc7umJipp8mKFu22caWB3CX3V8%2FEkiAkGxTNhaitvxiECCLVJ7M1FFKnoC71e59Gm2Wn9AMJhPbnO0m4H5i25bl2%2FiLlOzLEheYZcEijWf0prrgIf4JaSG7bRvPYMbdmCOU5PGGL5yi9RpOc64sSlP0xN82Rwn%2Fq5toAYWCh2mUiKV%2FxLN8WZYGrlmXf4DxYsl%2B2TLplVXEbqYF2TKaoadGEXg7AXcpQnl5tNrdwYQIj8mlfO7dgatVw1K4zrs88NuH1ccvv9w9fXaXDz%2FB77%2FE7z58vnFD2rh8z94YzrAA6ClK8yVaoHWUvK1Lb1O0Xc8gqdbEZ%2FU9%2F0VogwstXPg%2FmOd72pvRNke4aJmvEnoV7uL8T%2Fo4Of5Gjg2Xnt3vGpfu9%2Bxknaf7P1kF5KTxFDmtHyvO2HOimKjkMrRNp%2FSdnXT9x5e%2F3n%2Bc3ia%2Fwr8%2F%2F%2F7111t4wzQ1j9IFzI8J0S9vJJJr%2FATthvcQrSBuEb4hhUmUxz941Yqohi6q%2B%2BpOxAe0H5%2FRp55bVvwjSrb0p75hCLX7OYe7nO%2BWKIkXa3w8xaKCKS74AdM8xlh4Qy%2Bs4tms1ACYxT%2Bjx6IqIuQNitd58R7u7cS9xyVJ9AiT22j6fVFoyx1KUFr8LpgXH2nPHFVR0hi4m0hATxvC4YqTO33qxjQcz6fVUXt0Q6vq3DW09i%2FkjRtV24YTcBW3qkDzeYaVqN23VSPP726L6Wmjv39Dg8K6gvK3xpUTsG4g%2BRsH5MFgXZly9bg%2B2vBGP79JIXmTJSy%2B8XUzwc3IyDec43d7J6hBukSrxy1u2u3TMs7hwyYqhPWEvTffmQcFLODwIN4A8AzT41ARMpk%2B1c7U8l3Dp7ctm76Uec7eLaTlC5IU8bKevSHxA7GHSZRl8bSjfE5qS%2BPVWRjRfG1WdqFFcmxghE5L%2BHwlJVToc83I4XRVQt%2BUaBLqwiKM9o3bqKM4o9V1f5d19mtDA0EhHvAb5YJWZHmKvleRoM2rBI7wNuS%2B1W5BgmFjnqCn6RJXY2Sksr%2BsA6jrA2q%2BIDcgQZop0TfvaigLBaHepTDKqckqmrYmITE5wE20zUccLxReiIgjnuZbYtbaPUCFvEnRFGYdDNljFYR83uZJvIY9Gjj3MDCaYndUit0W3cQDiTzMQgnj9YIcTlHhMaJC1MxnRCssJYnO6y1xW%2BZS1ErcEiT%2BbHdyTux0UJ7NGOgoNDXxVZJeBe3eusBZVRpywln15U1Y949HH%2Byuke5g%2BuD0qQ%2BBYn0Agj58hYs4I4PsytERA4zmxAniAH1i37EY3jbn0bS02t%2BjPFpH5bW0EPqBi6VZx7FK9PQIU2rhxmTSg44m3b%2BaSXdExF5%2FAH0BgN2OAO5%2FVOG4itEk0lutsHKbFcD6dwmJ%2F4xN%2B4E%2FeEDjCSIuQ8havv8i9irbQEgsTXGLabm10PHRCv2AK1goT3Gf5v3guEZohvXHlyt5s0%2Fcmt5Q0y090BaK4woqnpNcG9ArALFDAZVem%2FG4IABxQaDWZIojcSWKc1Vy92iodVLhOjtMRWwdm%2B%2Fct86frW0eX5EwjrqyqklI6ns4J6aahaWbtGxw6UsKJuIRRelMb%2Ffg2kbIU9muI3PTlsE8hxKXAEZHPXSefgG2VgiVuAT%2FbJAWLsGsP27L1ah1D0zSMsyWKF1EK%2FKFIzoSWK8wGknahN6ABUbAz8h6MkZcOWBFLkB3wNpdAetoBljHCHiTHbSJwO6AJXU1AMuPDnzLNxpDh1AxfB1BpaoBcTEmm0dJUpJEhFsSM0E0x60vnVJRjVuRddAdt%2FrD8fwJad5hBm1HfG3EifxIhTiirA3EVSRsLEnB0hx4lVgHBd5ApIf6sSuQkCVHE4H0RXbYnmE519FaLYMxpJ%2B1Al%2FUPD2TZc9XQpbLejo7jnW5JlmvrmgnvnBMw4ExjBetiJFdP2Z1Ko6mJtoKeG4nlA1obAnQr5fiwziQ%2F%2FNE0%2BP5o6exBLrmY6jBUtXyBpg%2BYeDUIwjK5aVwkxAgFBhbaQ0e4AEjBA3n0crbMmUzPIrBNBr%2FctXFGAdUsisNYTl6OSbLEWdfxrweo1LTXhZkmICt7%2BDXTZwbkypYb%2BGKycKv6y16Qa5mC6mqljeJ8Zj4vag5st8Xio8H%2FLMyp7lIZS5jTpoMMfQ6DNc0HKvh%2BvjBmuVIiXHfMB3R%2B7UHdv0JW0Jjyszkq0esBMbWw54OL4FeuHLBq7nsoVtdW7NuFTlyiWMcTZzDtLSXOMd2gHR9qMZxjiS3oPZ%2BZZay%2Fn7P5xlES7osSr2vc0fn18ym%2BbOuaP4kGVyXseDPg9hzVyxaPk%2FKWYylO0RxCw%2BY4PgDIDj%2BwJWWREoyFb5WdA%2BFf1TQq1j96NqFbJpCuK7ooRnE51FW5XlVF%2BiKM43pIqGXbFm6l2J%2ByBJE9ho2tSnUDtFw14XaisImIPJDlGzlJ49Hyrm2eFZreBwFgyzuuQxHykaVTteUfe3YGkfMyvi4bjsgjdFiuS2X4wwPFdcbH1SUuRw2%2Fu6wk4xuI3WR2Owc22mMIOA5RmDzIALDgygYdrSnZkeB7okjXu8DtwvBIGaO1GDgWP5RQkIMwaQrVxT7lW5zoprCZABfw7qiA7w0m%2F5mLecSOL2EcMBzVC4Prjrc%2B3uL2IWbrOiyN%2FgGy97s6ov4aEG%2BP2aT1orvzTZblmm3ZTHdQAGRa2zDhGJTUPz9He6zgqAsm4LfrWxNWbegiSp5S9sMuTTH1gS5J8tUUU5hehJ2GOHzNSJSXpUDWI4N1tlMOnYtv0rO3uBm0hPjNFmqQcf0Z6th4M7jfa868nyGidNrqz3bauG1pUh%2Be4eMrtnQtneiYsUbG1meyAm%2Fpr508MWnVdrXLCj2BuXIdLdU3btVt2DsZe0NXalpT3P0rVDLvcw9KJij9yScZ9ewuBEJDz1TL0S8bUcnC8WUh7xsedyIbKK6bDSvM%2F%2FT%2F%2FzbWRP3fmunFMt3js%2FDCw%2Bw7eeuOw%2FvifTUJ9noysxRC%2BEaj7eq3ZQq4cvWmioebI0P3upCHr%2Fz4CzQbHrde2HLL5iaXh7ymNh%2F8htZ3NjaRzy%2BSCeejngk5J%2FuIY%2F0nxKUhzzhoClHmoc8LLd0fClHrOXPiSkohsYUVASyfYTVBhXs%2F880AJB2IUVnFsXTLNPI70SDjiaiYDraz4LO1s65QP%2BIQhuqU7tkwO4QZWk32kD0hRGdfp9EpwlYAth4QHqU6Kzilaje76XQRJqow%2FaaLdJ1hl6VFPKBfwD4oEUPrtMfdC8KreOWoHPY7%2BsW9nfauWA8NrHXjShMl18qeDMCoxjqAlLtIpfuIA00WxwfiATXuCMXxr%2F2wFcC1%2BNHF%2FrzlYFItbzQwEUTxnLQHek0ZyzZKG18jCVr%2BctINxWZyuGnP0N9mMqr7W56BWcvzxVw2raS727hj%2Bt6%2BvvkdoqCbZpa5jQEIoH6ktAcyv7BTfGaM5EveUuWj7fFqOn%2FWbeWwkp3uu3pz6zxaYrIwpJaw8nbfkIzSO74Bw%3D%3D

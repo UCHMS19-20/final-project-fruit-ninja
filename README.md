@@ -1,10 +1,8 @@
-# Intro to Programming Final Project - Fall 2019
+# Fruit Ninja
 
-Please note that this website and the repository associated with it are the official source of info for the project. I will post all updates here. Please note that my updates will not be reflected in your repository, only in mine. Updates to the assignment info will be posted [here](https://jgerstein.github.io/FinalProject19/), resources will be on [the resources page](https://jgerstein.github.io/FinalProject19/resources), and sample code will be in the main repository's [examples](https://github.com/jgerstein/FinalProject19/tree/master/examples) folder.
+## Description
 
-## Goal
-
-Plan, code, document, and present a game written in Python. I encourage you to include graphics with Pygame or another game engine, but will not require it.
+This game is a different version of the popular mobile phone game. The main idea is the same but instead of swiping, the user moves a sword at the bottom of the screen using the left and right arrow keys. There are two types of objects that fall at varying speeds from the top of the screen, strawberries and bombs, and user must try to cut the strawberries without cutting the bombs.
 
 ## Criteria
 
